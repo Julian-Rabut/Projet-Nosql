@@ -1,0 +1,1 @@
+{"version":2,"defects":[],"times":{"DatabaseTest::testCanConnectAndReadCounts":0.291,"DatabaseTest::testActivitiesHaveVenueIdAndCreatedBy":0.01,"SmokeTest::testPhpUnitWorks":0.004,"SmokeTest::testMongoExtensionLoaded":0.006}}

@@ -1,0 +1,27 @@
+{
+    "name": "reunion/events",
+    "description": "Projet événements à La Réunion",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Reunion\\Events\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Julian Rabut",
+            "email": "rabutjulian@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "mongodb/mongodb": "^2.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^12.5"
+    },
+        "scripts": {
+    "test": "phpunit"
+    }
+
+}
