@@ -1,4 +1,4 @@
-<?php $title="Carte"; require __DIR__ . '/../layout/header.php'; ?>
+<?php $pageTitle = "Map"; require __DIR__ . '/../layout/header.php'; ?>
 
 <div class="card">
   <h1>Carte — La Réunion</h1>

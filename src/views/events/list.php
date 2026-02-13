@@ -6,7 +6,8 @@ $reviewModel = new ReviewModel();
 $venueModel  = new VenueModel();
 
 $title = "Activités";
-require __DIR__ . '/../layout/header.php';
+$pageTitle = "Événements"; require __DIR__ . '/../layout/header.php';
+
 
 $selectedCat = trim($filters['category'] ?? '');
 $selectedDiff = trim($filters['difficulty'] ?? '');

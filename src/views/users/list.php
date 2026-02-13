@@ -1,6 +1,5 @@
 <?php
-$title = "Utilisateurs";
-require __DIR__ . '/../layout/header.php';
+$pageTitle = "Utilisateurs"; require __DIR__ . '/../layout/header.php';;
 ?>
 
 <div class="card">

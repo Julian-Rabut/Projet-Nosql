@@ -1,4 +1,4 @@
-<?php $title="Lieux"; require __DIR__ . '/../layout/header.php'; ?>
+<?php $pageTitle = "Lieux"; require __DIR__ . '/../layout/header.php'; ?>
 
 <div class="card">
   <h1>Lieux / Spots à La Réunion</h1>

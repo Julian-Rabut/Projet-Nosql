@@ -1,4 +1,4 @@
-<?php $title = "Accueil"; require __DIR__ . '/../layout/header.php'; ?>
+<?php $pageTitle = "Home"; require __DIR__ . '/../layout/header.php'; ?>
 
 <div class="row">
   <div class="card">
