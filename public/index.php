@@ -6,6 +6,7 @@ require_once __DIR__ . '/../vendor/autoload.php';
 $page   = $_GET['page'] ?? 'home';
 $action = $_GET['action'] ?? 'list';
 
+// Sécurise un minimum (évite n'importe quoi dans l'URL)
 $page = preg_replace('/[^a-z_]/i', '', (string)$page);
 $action = preg_replace('/[^a-z_]/i', '', (string)$action);
 
