@@ -17,12 +17,6 @@
       <a href="/?page=map">Carte</a>
       <a href="/?page=reviews&action=list">Avis</a>
     </div>
-
-    <div>
-      <h4>Actions</h4>
-      <a href="/?page=events&action=add">Ajouter un événement</a>
-      <a href="/?page=venues&action=add">Ajouter un lieu</a>
-    </div>
   </div>
 
   <div class="container footer-bottom">
